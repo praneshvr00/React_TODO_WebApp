@@ -1,0 +1,85 @@
+.homeContainer .nav {
+  height: 70px;
+  background-color: beige;
+  padding: 0px 40px 0px 40px;
+}
+
+.homeContainer .nav ul {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  font-size: large;
+  list-style-type: none;
+}
+.homeContainer .nav ul:hover {
+  cursor: pointer;
+}
+.homeContainer .nav .active {
+  padding: 8px 12px 8px 12px;
+  background-color: white;
+  border-radius: 10%;
+}
+.homeContainer .addTodo {
+  padding: 20px 20px 0px 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+.homeContainer .addTodo button {
+  width: 80px;
+  height: 40px;
+  background-color: red;
+  color: white;
+  font-size: 14px;
+  border: none;
+  border-radius: 5%;
+}
+.homeContainer .addTodo button:hover {
+  cursor: pointer;
+  background-color: rgb(255, 102, 102);
+}
+.homeContainer .todoCard {
+  width: fit-content;
+  margin: 20px 0px 0px 0px;
+  padding: 0px 40px 0px 40px;
+  min-height: 300px;
+  max-height: 600px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.homeContainer .todoCard .card {
+  padding: 20px;
+  margin: 10px;
+  min-width: 100px;
+  max-width: 180px;
+  align-items: center;
+  justify-content: center;
+  background-color: silver;
+  border-radius: 5%;
+}
+
+.homeContainer .todoCard .card .title {
+  margin: 10px 0px;
+}
+.homeContainer .todoCard .card .actions {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+.homeContainer .todoCard .card .actions button {
+  width: 60px;
+  height: 25px;
+  background-color: beige;
+  color: black;
+  font-size: 14px;
+  border: none;
+  border-radius: 5%;
+}
+.homeContainer .todoCard .card .actions button:hover {
+  cursor: pointer;
+  background-color: rgb(224, 224, 209);
+}

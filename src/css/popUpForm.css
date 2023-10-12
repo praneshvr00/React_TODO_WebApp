@@ -1,0 +1,52 @@
+.popUpContainer {
+  padding: 20px;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: beige;
+}
+.popUpContainer .todoForm {
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  flex-direction: column;
+}
+.popUpContainer .todoForm input {
+  margin: 0px 0px 0px 40px;
+  min-width: 200px;
+  height: 30px;
+  background-color: beige;
+  outline: 0;
+  border-width: 0px 0px 2px;
+  border-color: grey;
+  font-size: 14px;
+}
+.popUpContainer .todoForm .actions {
+  display: flex;
+  gap: 10px;
+}
+.popUpContainer .todoForm .add {
+  padding: 4px 8px 4px 8px;
+  margin: 20px 0px 0px 0px;
+  width: fit-content;
+  border: none;
+  color: white;
+  background-color: blue;
+}
+.popUpContainer .todoForm .add:hover {
+  cursor: pointer;
+  background-color: rgb(95, 95, 255);
+}
+
+.popUpContainer .todoForm .cancel {
+  padding: 4px 12px 4px 12px;
+  margin: 20px 0px 0px 0px;
+  width: fit-content;
+  border: none;
+  color: white;
+  background-color: red;
+}
+.popUpContainer .todoForm .cancel:hover {
+  cursor: pointer;
+  background-color: rgb(251, 87, 87);
+}
